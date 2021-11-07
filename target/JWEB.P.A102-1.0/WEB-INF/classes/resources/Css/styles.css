@@ -1,0 +1,176 @@
+.nav-bg{
+    background-color : black;
+}
+
+.text-hd2{
+    margin-top: 70px;
+    margin-left: 10%;
+}
+.text-custom{
+   top: 3px;
+   left: 3px;
+}
+.btn-check{
+    margin-top: 26px;
+    margin-left: 20%;
+    width: 85px;
+    height: 45px;
+    /* border: #686c70; */
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.group-custom{
+    margin-left: 18%;
+}
+.group-custom2{
+    margin-top: 25px;
+    margin-left: 35%;
+}
+.group-custom3{
+    margin-top: 0px;
+    margin-left: 18%;
+}
+.custom-checkbox{
+    margin-top: 35px;
+}
+
+.form-control {
+    display: block;
+    margin-top: 25px;
+    /* width: 20%; */
+    height: 36px;
+    padding: .375rem .75rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 16px;
+}
+
+
+.form-control2 { 
+    display: block; 
+    margin-top: 25px;
+    margin-right: 15%;
+    width: 70%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out ,box-shadow .15s ease-in-out ;
+}
+
+.form-control2:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.form-control3 { 
+    display: block; 
+    margin-top: 25px;
+    /* margin-right: 15%; */
+    width: 10   0%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control3:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.txt2-custom{
+    left: 50px;
+}
+.btn-add-question{
+    margin-left: 10%;
+    margin-top: 50px;
+    color: white;
+    width: 160px;
+    height: 45px;
+    background-color: rgb(82, 190, 82);
+}
+.btn-layout{
+    margin-bottom: 25px;
+}
+.custom-layout{
+    margin-left: 9.5%;
+    margin-top: 25px;
+    width: 80%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+.btn-Active{
+    background-color: hsl(180, 89%, 43%);
+    color: white;
+    border: hsl(180, 89%, 43%);
+} 
+
+.btn-Drafts{
+    background-color: hsl(180, 91%, 5%);
+    color: white;
+    border : hsl(180, 91%, 5%);
+} 
+
+.btn-Close{
+    background-color: hsl(180, 23%, 87%);
+    color: black;
+    border : black;
+} 
+.btn-check-fr2{
+    margin-top: 40px;
+    margin-left: 23%;
+    width: 85px;
+    height: 45px;
+}
+.text-decor{
+    background-color: rgb(18, 129, 92);
+    color: white;
+}
+.custom-btn{
+    margin-left: 23%;
+}
+.btn-add-custom{
+    background-color: rgb(18, 129, 92);
+    color: white;
+    font-size: large;
+    margin-top: 26px;
+    width: 35px;
+    height: 35px;
+}
+.btn-delete{
+    margin-left: 5px;
+}
+.btn-login2{
+    color: white !important;
+    margin-right: 5%;
+}

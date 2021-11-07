@@ -1,0 +1,85 @@
+//    long startTime = System.currentTimeMillis();
+//    for(int i = 0 ;i<=5000 ; i++) {
+//      answerUserDAO.getListAnswerLength();
+//    }
+//    long stopTime = System.currentTimeMillis();
+//    
+//    long startTime2 = System.currentTimeMillis();
+//    for(int i = 0 ;i<=5000 ; i++) {
+//      answerUserDAO.getListAnswerLengthNativeQuery();
+//    }
+//    long stopTime2 = System.currentTimeMillis();
+//    System.out.println(stopTime - startTime);
+//    System.out.println(stopTime2 - startTime2);
+//  List<Answer> listAnswer = answerUserDAO.panigationListAnswer(1, 5);
+//  listAnswer.stream().forEach(u->System.out.println(u));
+//    List<Answer> listAnswer = answerUserDAO.searchListAnswerByAttribute(1,5,"text","2");
+//    listAnswer.stream().forEach(u->System.out.println(u));
+
+//@Override
+//public Integer getListAnswerLengthNativeQuery() {
+//  Session session = HibernateUtils.getSessionFactory().openSession();
+//  try {
+//    session.beginTransaction();
+//    Integer count = (Integer) session.createNativeQuery("SELECT Count(*) FROM dbo.tbl_answer").getSingleResult();
+//    session.getTransaction().commit();
+//    session.close();
+//    return count;
+//  } catch (Exception e) {
+//    e.printStackTrace();
+//    session.getTransaction().rollback();
+//    session.close();
+//  }
+//  return null;
+//}
+
+//  private static SessionFactory buildSessionFactory() {
+//    SessionFactory sessionFactory = null;
+//    try {
+//      Configuration configuration = new Configuration();
+//      configuration.configure();
+//      StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder();
+//      builder.applySettings(configuration.getProperties());
+//      StandardServiceRegistry serviceRegistry = builder.build();
+//      sessionFactory = configuration.buildSessionFactory(serviceRegistry);
+//    } catch (Throwable ex) {
+//      throw new ExceptionInInitializerError(ex);
+//    }
+//    return sessionFactory;
+//  }
+
+
+while (true) {
+      Initial();
+      Integer choice = Integer.parseInt(sc.nextLine());
+      switch (choice) {
+      case 1:
+        System.out.println(answerUserDAO.getListAnswerLength());
+        break;
+      case 2:
+        answerUserDAO.panigationListAnswer(1, 5).stream().forEach(u->System.out.println(u));
+        break;
+      case 3:
+        answerUserDAO.searchListAnswerByAttribute(1, 5, "text", "java");
+        break;
+      case 4:
+        answerUserDAO.getNumberUserAnswerTheMostQuestionInDay
+        break;
+      case 5:
+
+        break;
+      case 6:
+
+        break;
+      case 7:
+
+        break;
+
+      case 8:
+
+        break;
+      case 9:
+
+        break;
+
+      }
